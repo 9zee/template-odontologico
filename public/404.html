@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101d2c">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Página não encontrada | Clínica Odontológica</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px 20px;
+      background: #f7f4ef;
+      text-align: center;
+    }
+
+    .error-content {
+      width: 100%;
+      max-width: 620px;
+    }
+
+    .error-code {
+      margin: 0;
+      color: #c99b72;
+      font-size: clamp(5rem, 18vw, 10rem);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.08em;
+    }
+
+    .error-content h1 {
+      margin: 24px 0 12px;
+      color: #101d2c;
+      font-size: clamp(1.7rem, 5vw, 2.5rem);
+    }
+
+    .error-content p {
+      margin: 0 auto 28px;
+      max-width: 460px;
+      color: #606a74;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .error-actions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .error-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 22px;
+      border: 1px solid #c99b72;
+      border-radius: 6px;
+      background: #c99b72;
+      color: #101d2c;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .error-button:hover {
+      transform: translateY(-2px);
+      background: #d8b18d;
+    }
+
+    .error-button-secondary {
+      background: transparent;
+      color: #101d2c;
+    }
+
+    .error-button-secondary:hover {
+      background: #eee6dc;
+    }
+
+    .error-brand {
+      margin-top: 42px;
+      color: #7b838b;
+      font-size: 0.85rem;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .error-button {
+        transition: none;
+      }
+
+      .error-button:hover {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="error-page">
+    <section class="error-content" aria-labelledby="error-title">
+      <p class="error-code" aria-hidden="true">404</p>
+
+      <h1 id="error-title">Esta página não foi encontrada.</h1>
+
+      <p>
+        O endereço pode estar incorreto ou a página pode ter sido movida.
+        Vamos levar você de volta ao lugar certo.
+      </p>
+
+      <div class="error-actions">
+        <a class="error-button" href="/">Voltar ao início</a>
+        <a class="error-button error-button-secondary" href="/#agendamento">
+          Solicitar agendamento
+        </a>
+      </div>
+
+      <p class="error-brand">
+        Clínica Odontológica · Cuidado em cada detalhe
+      </p>
+    </section>
+  </main>
+</body>
+</html>

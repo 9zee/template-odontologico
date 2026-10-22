@@ -1,0 +1,27 @@
+
+# Variáveis privadas
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Certificados e chaves privadas
+*.pem
+*.key
+*.crt
+
+# Backups
+*.bak
+*.backup
